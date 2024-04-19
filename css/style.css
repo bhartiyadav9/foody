@@ -1,0 +1,229 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+.carousel-caption{
+	padding-bottom: 170px;
+    padding-right: 400px;
+}
+.carousel-caption h1{
+	font-size: 42px;
+	padding-bottom: 10px;
+}
+h1{
+	text-transform: capitalize;
+}
+/*.fa-check{
+	color: green;
+	font-size: 25px;
+	margin-right: 5px;
+}*/
+.btn{
+	color: white;
+	border-radius: 50px;
+	transition-duration: 1s;
+	transition-property:transform ;
+	transition-timing-function: linear;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.our_div{
+	background-color: white;
+	box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+	padding: 20px 10px;
+	text-align: center;
+	margin: 5px 10px;
+    margin-top: 25px;
+}
+.feature_botton .btn:hover{
+	background-color: green;
+	color: white;
+}
+.navbar-nav li a:hover{
+	color: darkred;
+}
+.visit_btn{
+	padding: 10px;
+	margin-left: 170px;
+    margin-top: 50px;
+}
+.our_btn{
+	padding: 20px;
+    padding-left: 150px;
+    margin-left: -20px;
+}
+.after_p h1{
+	position: relative;
+	display: inline-block;
+}
+.after_p h1:after{
+	content:"";
+	height:2px;
+	width:100px;
+	background-color:red;
+	left:50px;
+	bottom:50px;
+	position:absolute;
+}
+.after_p h1{
+	position: relative;
+	display: inline-block;
+}
+.after_p h1:before{
+	content:"";
+	height:2px;
+	width:70px;
+	background-color:green;
+	left:60px;
+	bottom:60px;
+	position:absolute;
+}
+.visit{
+	background-color: green;
+}
+.review_client img{
+	border-radius: 100px;
+	width: 50px;
+}
+.review_client:hover{
+	background-color: green;
+	color: white;
+}
+.product_text .svg-inline--fa{
+	color: green;
+	margin: 4px;
+}
+.footer_icon .svg-inline--fa{
+	color: white;
+	border: 2px solid white;
+	border-radius: 100px;
+	padding: 10px;
+}
+.add a .svg-inline--fa{
+	border-radius: 0px;
+	border: none;
+	color: white;
+}
+.footer p{
+	font-size: 12px;
+	color: gray;
+}
+.before_p h1{
+	position: relative;
+	display: inline-block;
+}
+.before_p h1:after{
+	content:"";
+	height:2px;
+	width:70px;
+	background-color:green;
+	left:50px;
+	bottom:70px;
+	position:absolute;
+}
+.before_p h1{
+	position: relative;
+	display: inline-block;
+}
+.before_p h1:before{
+	content:"";
+	height:2px;
+	width:90px;
+	background-color:red;
+	left:40px;
+	bottom:60px;
+	position:absolute;
+}
+@media (max-width: 500px){
+	.visit_btn{
+		margin-left: 60px;
+		margin-top: -20px;
+	}
+}
+.sell{
+	display: flex;
+}
+.product{
+	box-shadow: 2px 2px 2px gray;
+	margin: 20px 0px;
+}
+.product_img{
+	overflow: hidden;
+}
+.our_div{
+	transition-property:background-color color;
+	transition-delay:0.2s;
+	transition-duration:2s;
+	transition-timing-function:linear;
+}
+.our_div:hover{
+	background-color: green;
+	color: aliceblue;
+}
+.customer_review{
+	padding: 50px 20px;
+}
+.contact_links li a{
+	color: gray;
+}
+.navbar-brand{
+	font-size: 30px;
+}
+.collapse .navbar-nav{
+	padding-left: 350px;
+}
+img{
+	transition-duration: 1s;
+	transition-property:transform ;
+	transition-timing-function: linear;
+}
+img:hover{
+	transform: scale(1.2);
+}
+.form{
+	margin:60px ;
+}
+.btn_hover{
+	transition-duration: 1s;
+	transition-property:transform ;
+	transition-timing-function: linear;
+}
+.btn_hover:hover{
+	transform: translate(70px);
+}
+input{
+	width: 100%;
+	padding: 15px;
+	color: rgb(20, 17, 17);
+}
+label{
+	margin: 10px;
+	font-size: 25px;
+	color: green;
+}
+a{
+	border: 2px solid transparent;
+	border-radius: 50px;
+}
+a:hover{
+	border: 2px solid red;
+	border-radius: 50px;
+}
+.blog{
+	overflow: hidden;
+	margin:0px 20px;
+}
+.footer_icon a:hover{
+	border: none;
+}
+.blog_image{
+	overflow: hidden;
+}
+.organic_img{
+	overflow: hidden;
+}
+.form_btn:hover{
+	border: none;
+}
